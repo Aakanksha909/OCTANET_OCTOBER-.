@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Your+Attractive+Font&display=swap" rel="stylesheet">
+    <title>KRB Enterprises</title>
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header class="header">
+        <h1>KRB Enterprises</h1>
+    </header>
+
+    <section id="section1" class="section">
+        <div class="box">
+            <h2>KRB Software Solutions</h2>
+            <p>World's leading software solutions that are making an impact worldwide.</p>
+        </div>
+
+        <div class="box">
+            <h2>KRB Chemicals</h2>
+            <p>World's leading chemical company dedicated to global health.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; KRB & Co</p>
+        <div class="social-icons">
+            <a href="#" class="icon-facebook"></a>
+            <a href="#" class="icon-twitter"></a>
+            <!-- Add more social media icons as needed -->
+        </div>
+    </footer>
+
+    <div class="cta-button">
+        <a href="#">Sign Up Now</a>
+    </div>
+
+    <div class="hero">
+        <h1>Welcome to KRB Enterprises</h1>
+        <p>Your one-stop destination for amazing content.</p>
+        <a href="#section1" class="cta-button">Learn More</a>
+    </div>
+
+    <div class="testimonial">
+        <blockquote>
+            "Great product! I couldn't be happier with the results."
+        </blockquote>
+        <cite>John Doe, Happy Customer</cite>
+    </div>
+
+    <div class="progress-bar">
+        <div class="progress" style="width: 70%;">70%</div>
+    </div>
+
+    <div class="pricing-table">
+        <div class="price-tier">
+            <h2>Basic</h2>
+            <p>$19/month</p>
+            <!-- Include feature list here -->
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+        <!-- Add more pricing tiers as needed -->
+    </div>
+
+    <div class="icon">
+        <img src="icon.svg" alt="Icon" />
+    </div>
+
+    <!-- Mobile navigation menu -->
+    <div class="mobile-menu">
+        <button class="menu-icon" onclick="toggleMenu()">&#9776;</button>
+        <div class="menu-content">
+            <ul>
+                <!-- Add mobile menu items here -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+  /* Updated styles for header */
+.header {
+    background-color: #f16247;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Your Attractive Font', sans-serif;
+}
+
+/* Updated styles for sections */
+.section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Updated styles for boxes */
+.box {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-family: 'Your Attractive Font', sans-serif;
+}
+
+/* Updated styles for headings and paragraphs */
+h1, h2, h3, p {
+    font-family: 'Your Attractive Font', sans-serif;
+    color: #333;
+}
+
+/* Add styles for other elements here */
+
+/* Updated styles for the footer and social icons */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.social-icons a:hover {
+    color: #f16247;
+}
+
+/* Updated styles for the call-to-action button */
+.cta-button a {
+    background-color: #f16247;
+    color: #fff;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button a:hover {
+    background-color: #333;
+}
